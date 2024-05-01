@@ -1,13 +1,13 @@
 body {
-  margin: 0;
-  background-color: #010810;
+  margin: 0; /* Устанавливает внешний отступ (margin) в 0, убирая стандартные отступы */
+  background-color: #010810; /* Задает темно-синий цвет фона для всей страницы */
   font-family: "Inter", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans",
-    "Helvetica Neue", sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+    "Helvetica Neue", sans-serif; /* Определяет стек шрифтов, используемых для текста */
+  -webkit-font-smoothing: antialiased; /* Улучшает внешний вид шрифта в WebKit-браузерах */
+  -moz-osx-font-smoothing: grayscale; /* Улучшает внешний вид шрифта в Firefox на MacOS */
 }
 
 p {
-  margin: 0;
-  padding: 0;
+  margin: 0; /* Устанавливает внешний отступ (margin) параграфов в 0 */
+  padding: 0; /* Устанавливает внутренний отступ (padding) параграфов в 0 */
 }
